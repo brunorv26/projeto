@@ -78,7 +78,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background-color: #00bcff;
+	background-color: #4B0082;
 	transition: all 0.5%;
 }
 
@@ -159,7 +159,7 @@ nav ul li a:hover{
 /**** Titulo (Meliodas) *****/
 .teste{
 	margin-top: -300px;
-	margin-left: 30px;
+	margin-left: 10px;
 	padding: -10px;
 	color: #ffffff;
 	font-size: 40pt;
@@ -168,7 +168,7 @@ nav ul li a:hover{
 
 .teste2{
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 10px;
 	color: #ffffff;
 }
 
@@ -183,8 +183,22 @@ nav ul li a:hover{
 	font-size: 0.875em;
 	position: absolute;
 	text-align: center;
-	right: 1180px;
+	right: 1195px;
 	bottom: -120px;
+}
+
+.botao2{
+	width: 100px;
+	padding: 10px 0px 10px 0px;
+	display: block;
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+	font-size: 0.875em;
+	position: absolute;
+	text-align: center;
+	right: 1195px;
+	bottom: -1100px;
 
 }
 
@@ -194,3 +208,123 @@ nav ul li a:hover{
 	margin-left: -230px;
 	margin-top: -120px;
 }
+
+.doidera{
+	
+	margin-top: 20px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.mec{
+margin-top: -310px;
+margin-left: 10px;
+color: #ffffff;
+
+}
+
+
+.h1sobre{
+
+margin-top: 50px;
+margin-left: 670px;
+/*position: fixed;*/
+}
+
+.h2sobre{
+
+margin-top: 80px;
+margin-left: 600px;
+
+}
+
+.h3sobre{
+
+margin-top: 20px;
+margin-left: 650px;
+
+}
+
+
+.git{
+
+float: right;
+margin-right: 730px;
+margin-top: 330px;
+}
+
+
+.gif{
+
+	margin-top: 10px;
+	margin-left: 540px;
+}
+
+.ninjamock{
+
+	margin-top: 230px;
+}
+
+.hosp{
+
+margin-left: 1250px;
+margin-top: -350px;
+}
+
+
+.Logo{
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left; 
+	margin-top: -2px;
+}
+
+.meligod{
+	padding: 10px;
+	margin-left: 620px;
+}
+
+.ban{
+	margin-left: 300px;
+	padding: 10px;
+}
+
+.diane{
+	padding: 10px;
+	margin-left: 300px;
+}
+
+.logo{
+	margin-top: 10px;
+
+}
+
+
+.social{
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 2000;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.icon-facebook{
+
+}
+
+
+
+/***** fim página dos pecados *******/	
+
+
