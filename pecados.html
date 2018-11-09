@@ -5,11 +5,15 @@
 	<meta charset="UTF-8">
 	<title>Pecados</title>
 	<link rel="stylesheet" href="css/style.css">
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
 
 
-<!-- MENU -->
+<!-- MENU 
 	<nav>
 		<ul>
 			<img class ="Logo" src="imagens/logo.jpg" alt="pecado da ira">
@@ -22,11 +26,41 @@
 		</ul>
 	</nav>
 
+-->
+
+<nav class="black darken-4">
+                <div class="nav-wrapper">
+                  <a href="index.html" class="brand-logo"><img width="35" src="imagens/logo.jpg" alt="pecado da ira"></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="conteudo.html">Conteúdo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="pecados.html">Pecados</a></li>
+                  </ul>
+                </div>
+              </nav>
+            
+              <ul class="sidenav black" id="mobile-demo">
+                <li><a style="color: white" href="index.html">Home</a></li>
+                <li><a style="color: white" href="sobre.html">Sobre</a></li>
+                <li><a style="color: white" href="conteudo.html">Conteúdo</a></li>
+                <li><a style="color: white" href="contato.html">Contato</a></li>
+                <li><a style="color: white" href="pecados.html">Pecados</a></li>
+              </ul>
+
+
+
+
 	<img class="gif" src="imagens/gif.gif" alt="melidas">
 
+	<br><br>
 
-	<h2 style="text-align: center;" class="">Clique na imagem para ir aos outros pecados</h2>
+	<h2 style="text-align: center;font-size: 40px" class="textpecados">Clique na imagem para ir aos outros pecados</h2>
 
+	<br>
+	
 	<img class="meligod" src="imagens/meligod.jpg" alt="escanor">
 	<br>
 	<img class="ban" src="imagens/ban10.jpg" alt="escanor">
@@ -36,4 +70,15 @@
 	<img class="diane" src="imagens/diane.jpg" alt="escanor">
 	<img class="gowther" src="imagens/gowther.jpg" alt="escanor">
 	<img class="escanor" src="imagens/escanor.jpg" alt="escanor">
+
+	     <script type="text/javascript" src="js/jquery.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <!-- Chamada da função do menu lateral(sidemenu)-->
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
 

@@ -15,7 +15,7 @@ body{
 }
 
 .Layout{
-	height: 350px;
+	height: 500px;
 	padding-top:200px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -48,7 +48,7 @@ color: white;
 
 /* MENU */
 
-nav{
+/*nav{
 	width: 100%;
 	height: 48px;
 	background-color: #000000;
@@ -73,14 +73,14 @@ nav ul li a{
 	color: #ffffff;
 	text-decoration: none;
 	padding: 15px;
-	display: block; /* Transforma em um bloco clicável */
+	display: block; /* Transforma em um bloco clicável 
 
 }
 
 nav ul li a:hover{
 	background-color: #4B0082;
 	transition: all 0.5%;
-}
+}*/
 
 /* FIM DO MENU */
 
@@ -184,7 +184,7 @@ nav ul li a:hover{
 	position: absolute;
 	text-align: center;
 	right: 1195px;
-	bottom: -120px;
+	bottom: -80px;
 }
 
 .botao2{
@@ -198,7 +198,7 @@ nav ul li a:hover{
 	position: absolute;
 	text-align: center;
 	right: 1195px;
-	bottom: -1100px;
+	bottom: -970px;
 
 }
 
@@ -206,18 +206,18 @@ nav ul li a:hover{
 .foda{
 	/*width: 250px;*/
 	margin-left: -230px;
-	margin-top: -120px;
+	margin-top: -130px;
 }
 
 .doidera{
 	
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 10px;
 	color: #ffffff;
 }
 
 .mec{
-margin-top: -310px;
+margin-top: -350px;
 margin-left: 10px;
 color: #ffffff;
 
@@ -227,9 +227,18 @@ color: #ffffff;
 .h1sobre{
 
 margin-top: 50px;
-margin-left: 670px;
+margin-left: 620px;
 /*position: fixed;*/
 }
+
+.h1sobre1{
+	
+margin-left: -80px;
+margin-top: -30px;
+
+
+}
+
 
 .h2sobre{
 
@@ -319,12 +328,156 @@ margin-top: -350px;
 	padding: 5px;
 }
 
-.icon-facebook{
+.text{
 
+color: black;
+
+
+}
+
+.brand-logo{
+
+margin-left: 10px;
+margin-top: 10px;
+
+}
+
+/***** fim página dos pecados *******/	
+
+
+@media screen and (max-width: 480px){
+
+/* Página dos pecados */
+.meligod{
+	margin-left: 65px;
+}
+.ban{
+	margin-left: 65px;
+}
+.merlin{
+	margin-left: 65px;
+}
+.king{
+	margin-left: 65px;
+}
+.diane{
+	margin-left: 65px;
+}
+.gowther{
+	margin-left: 65px;
+}
+.escanor{
+	margin-left: 65px;
+}
+
+.gif{
+	
+	width: 433px;
+	margin-left: 0px;
+}
+
+.h1conteudo{
+	margin-left: 10px;
+	margin-top: -10px;
+	padding: 10px;
+}
+.h2conteudo{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -10px;
+	padding: 0px;
+	text-align: center;
+}
+
+.h3conteudo{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -10px;
+	padding: 0px;
+	text-align: center;
 }
 
 
 
-/***** fim página dos pecados *******/	
+
+.imagem1{
+	margin-left: 50px;
+	
+}
+
+.melideus{
+
+width: 435px;
+margin-left: -80px;
+}
+
+.ira{
+
+width: 435px;
+margin-left: -80px;
+
+}
+
+
+.pecado{
+
+width: 435px;
+margin-left: -20px;
+	
+}
+
+.aniver{
+
+width: 435px;
+margin-left: -20px;
+
+}
+
+.manda{
+width: 435px;
+margin-left: -20px;
+
+}
+
+.tatto{
+width: 435px;
+margin-left: -20px;
+	}
+
+.treta{
+width: 435px;
+margin-left: -20px;
+	}
+
+	.foda{
+		
+	margin-left: -20px;	
+
+
+	}
+
+	.teste{
+	margin-top: -340px;
+	margin-left: 180px;
+
+
+
+	}
+
+	.teste2{
+  margin-left: 190px;
+	}
+ 
+ 	.botao{
+	
+	margin-right: 0px;
+
+
+ 	}
+
+
+}
+
+/* fim pecados */
 
 

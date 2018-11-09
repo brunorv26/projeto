@@ -5,11 +5,15 @@
 	<meta charset="UTF-8">
 	<title>Contatot</title>
 	<link rel="stylesheet" href="css/style.css">
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
 
 
-<!-- MENU -->
+<!-- MENU 
 	<nav>
 		<ul>
 			<img class ="Logo" src="imagens/logo.jpg" alt="pecado da ira">
@@ -21,17 +25,53 @@
 
 		</ul>
 	</nav>
+-->
+<!-- inicio do navbar -->
+        <nav class="black darken-4">
+                <div class="nav-wrapper">
+                  <a href="index.html" class="brand-logo"> <img width="35" src="imagens/logo.jpg" alt=""></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="conteudo.html">Conteúdo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="pecados.html">Pecados</a></li>
+                  </ul>
+                </div>
+              </nav>
+            
+              <ul class="sidenav black" id="mobile-demo">
+                <li><a style="color: white" href="index.html">Home</a></li>
+                <li><a style="color: white" href="sobre.html">Sobre</a></li>
+                <li><a style="color: white" href="conteudo.html">Conteúdo</a></li>
+                <li><a style="color: white" href="contato.html">Contato</a></li>
+                <li><a style="color: white" href="pecados.html">Pecados</a></li>
+              </ul>
 
+              <!-- importando a biblioteca do jquery-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <!-- Chamada da função do menu lateral(sidemenu)-->
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+<!-- fim do navbar -->
 
 
 
 <!-- formulário de contato -->
 	<div id="contato">
-		<h1>Formulário de Contato</h1>
-		<form action="formulario.php" method="POST">
-			<input type="text" name="nome" placeholder="nome">
-			<input type="text" name="name" placeholder="email">
-			<textarea name="mensagem" placeholder="mensagem"></textarea>
+		<h1 style="font-size: 30px;"> Formulário de Contato</h1>
+		<form style="font-size: 10px" action="formulario.php" method="POST">
+			<input style="font-size: 10px" type="text" name="nome" placeholder="nome">
+			<input style="font-size: 10px" type="text" name="name" placeholder="email">
+			<textarea style="font-size: 10px" name="mensagem" placeholder="mensagem"></textarea>
 			<input type="submit" value="Enviar">
 		</form>
 	</div>
