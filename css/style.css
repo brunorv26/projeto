@@ -4,6 +4,12 @@ EXEMPLO DE LAYOUT
 date: 26/09/2018;
 */
 
+
+ img{
+max-width: 100%;
+
+ }
+
 *{
 	margin:0px;
 	padding: 0px;
@@ -184,7 +190,7 @@ nav ul li a:hover{
 	position: absolute;
 	text-align: center;
 	right: 1195px;
-	bottom: -80px;
+	bottom: -320px;
 }
 
 .botao2{
@@ -198,7 +204,7 @@ nav ul li a:hover{
 	position: absolute;
 	text-align: center;
 	right: 1195px;
-	bottom: -970px;
+	bottom: -1350px;
 
 }
 
@@ -217,7 +223,7 @@ nav ul li a:hover{
 }
 
 .mec{
-margin-top: -350px;
+margin-top: -300px;
 margin-left: 10px;
 color: #ffffff;
 
@@ -281,15 +287,6 @@ margin-top: -350px;
 }
 
 
-.Logo{
-	color: #fff;
-	height: 50px;
-	line-height: 50px;
-	font-size: 24px;
-	float: left; 
-	margin-top: -2px;
-}
-
 .meligod{
 	padding: 10px;
 	margin-left: 620px;
@@ -332,19 +329,118 @@ margin-top: -350px;
 
 color: black;
 
+}
+/* MENU */
+
+.side-menu-wrapper { /* style menu wrapper */
+	background: rgba(0,0,10,.95);
+	padding: 40px 0 0 40px;
+	position: fixed; /* Fixed position */
+	top: 0;
+	left: 0; /* Sidebar initial position. "right" for right positioned menu */
+	height: 100%;
+	z-index: 2;
+	transition: 0.5s; /* CSS transition speed */
+	width: 200px;
+	font: 20px "Courier New", Courier, monospace;
+	box-sizing: border-box;
 
 }
 
-.brand-logo{
-
-margin-left: 10px;
-margin-top: 10px;
+.side-menu-wrapper > ul{ /* css ul list style */
+	list-style:none;
+	padding:0;
+	margin:0;
+    overflow-y: auto; /* enable scroll for menu items */
+	height:95%;
 
 }
+.side-menu-wrapper > ul > li > a { /* links */
+    display: block;
+    border-bottom: 1px solid #131313;
+    padding: 6px 4px 6px 4px;
+    color: #ffffff;
+    transition: 0.3s;
+	text-decoration: none;
+
+}
+.side-menu-wrapper > a.menu-close { /* close button */
+    padding: 8px 0 4px 23px;
+    color: #ffffff;
+    display: block;
+    margin: -30px 0 -10px -20px;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+
+.menu-overlay { /* overlay */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.menu-open{
+	    display:block;
+		background-color: #000000;
+		color: #ffffff;
+		text-decoration: none;
+		padding: 15px;
+}
+
+/* Classe usada pelo JS para fixar o menu */
+.Fixar{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+nav li:hover ul{
+	display: none;
+
+}
+
+nav ul li a:hover{
+	background-color: #00bfff;
+	transition: all 0.27s; /* efeito transição (0 a 1) */
+	
+}
+
+
+
+/* FIM DO MENU */
+
+
+
+
+/* LOGO */
+
+.Logo{
+	background-color:#000000;
+}
+.logo2{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+/* FIM DO LOGO */
+
+
 
 /***** fim página dos pecados *******/	
 
 
+/*************Moble************/
 @media screen and (max-width: 480px){
 
 /* Página dos pecados */
@@ -352,7 +448,7 @@ margin-top: 10px;
 	margin-left: 65px;
 }
 .ban{
-	margin-left: 65px;
+	margin-left: 105px;
 }
 .merlin{
 	margin-left: 65px;
@@ -373,7 +469,9 @@ margin-top: 10px;
 .gif{
 	
 	width: 433px;
-	margin-left: 0px;
+	margin-left: 25px;
+
+	/*Fim dos pecados*/
 }
 
 .h1conteudo{
@@ -451,33 +549,128 @@ margin-left: -20px;
 
 	.foda{
 		
-	margin-left: -20px;	
+	margin-left: 150px;	
 
 
 	}
 
 	.teste{
-	margin-top: -340px;
-	margin-left: 180px;
-
-
+	margin-top: -5px;
+	margin-left: 135px;
 
 	}
 
 	.teste2{
-  margin-left: 190px;
+  margin-left: 10px;
+
 	}
- 
- 	.botao{
-	
-	margin-right: 0px;
+
+	.botao{
+	margin-bottom: -405px;
+	right: 190px;
+	}
+
+	.botao2{
+	margin-bottom: -870px;
+	right: 180px;
+	}
 
 
- 	}
+	.mec{
+
+		margin-left: 100px;
+		margin-top: 0px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+/* PAGINA PECADOS */
+
+.meligod{
+	margin-left: 35px;
+}
+.ban{
+	float: right;
+	margin-right: 25px;
+	margin-top: -420px;
+
+}
+.merlin{
+	margin-left: 45px;
+}
+.king{
+	margin-left: 75px;
+}
+.diane{
+	margin-left: 25px;
+}
+.gowther{
+	margin-left: 65px;
+
+}
+.escanor{
+	margin-left: 65px;
+}
+
+.gif{
+
+	margin-left: 100px;
+}
 
 
 }
 
-/* fim pecados */
+/* FIM DA PAGINA PECADOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
