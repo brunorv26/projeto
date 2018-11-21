@@ -13,7 +13,7 @@
 	//Configurações do email, ajustar conforme necessidade
 	
 	$email_destinatario = "brunorodriguesvieira42@gmail.com"; // qualquer email pode receber os dados
-	$email_assunto = "Contato do site uchihas";
+	$email_assunto = "Contato do site meliodas";
 	
 	 
 	//Monta o Corpo da Mensagem
