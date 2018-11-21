@@ -375,6 +375,20 @@ nav ul li a:hover{
 
 /* FIM DO MENU */
 
+/*RODAPÉ*/
+footer{
+	width: 100%;
+	background-color: #800080;
+	margin-top: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.rodape{
+	margin-top: 250px;
+}
 
 
 
@@ -396,6 +410,83 @@ nav ul li a:hover{
 
 
 /*************Moble************/
+@media screen and (max-width: 1366px){
+	.foda{
+	margin-left: -50px;
+
+	}
+
+	.teste{
+
+		margin-left: 170px;
+	}
+
+	.teste2{
+		margin-left: 170px;
+
+	}
+
+	.mec{
+
+		margin-left: 170px;
+	}
+	.botao{
+		
+		margin-bottom: -100px;
+		right: 915px; 
+		
+	}
+
+	.botao2{
+		
+		margin-bottom: -100px;
+		right: 915px; 
+		
+	}
+
+	.meligod{
+	margin-left: 520px;
+}
+.ban{
+	margin-left: 720px;
+	margin-right: 160px;
+	margin-top: -20px;
+}
+.merlin{
+	margin-left: 300px;
+}
+.king{
+	margin-left: 130px;
+}
+.diane{
+	margin-left: 300px;
+	margin-right: 195px;
+	margin-top: -800px;
+	float: left;
+}
+.gowther{
+	margin-left: 300px;
+
+}
+.escanor{
+	margin-left: 720px;
+	margin-top: -390px;
+	margin-bottom: 20px;
+}
+.gif{
+
+	margin-left: 420px;
+}
+
+
+
+
+}
+
+
+
+
+
 @media screen and (max-width: 1024px){
 
 /* PAGINA PECADOS */
